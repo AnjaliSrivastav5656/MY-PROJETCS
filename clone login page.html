@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello form</title>
+    <link rel="stylesheet"href="scd.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="container">
+       <div class="form-box">
+           <h1 id="title">sign up</h1>
+           <form>
+               <div class="input-group">
+                   <div class="input-field"id="name-field">
+                       <i class="fa-solid fa-user"></i>
+                       <input type="text"placeholder="name">
+                   </div>
+                   <div class="input-field">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text"placeholder="Email">
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password"placeholder="password">
+                </div>
+                <p>lost password<a href=""> click here</a></p>
+               </div>
+               <div class="btn-field">
+                   <button type="button"id="signupBtn">sign up</button>
+                   <button type="button"id="signinBtn"class="disable">sign in</button>
+               </div>
+           </form>
+       </div>
+
+   </div>
+   <script>
+       let signupBtn=Document.getElementId("signupBtn")
+       let signinBtn=Document.getElementId("signinBtn")
+       let nameField=Document.getElementId("nameField")
+       let title=Document.getElementId("title")
+
+       signinBtn.onclick=function(){
+           nameField.style.maxHeight="0";
+       }
+   </script>
+</body>
+</html>

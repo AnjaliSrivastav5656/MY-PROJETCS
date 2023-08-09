@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(blue,red,black);
+    height: 700px;
+    width: 900px;
+}
+h1{
+    text-align: center;
+}
+div{
+   border: 1px solid black;
+   
+}
+.form{
+    padding: 10px;
+    margin: 60px 250px;
+    height: 300px;
+    
+}
+label{
+    color: rgb(33, 31, 34);
+}
+.link{
+    background-color: turquoise;
+    border: 1px solid rgb(41, 32, 32);
+}
+.link a{
+    color: white;
+    text-decoration: none;
+   
+}
+button{
+    margin: 10px 3px;
+    border: 2px solid whitesmoke;
+    width: 180px;
+    background-color: turquoise;
+}

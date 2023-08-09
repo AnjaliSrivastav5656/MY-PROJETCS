@@ -1,0 +1,15 @@
+body{
+    background-color:black;
+    border: 2px solid bisque;
+}
+
+
+.header p{
+    color: blue;
+}
+
+
+a{
+    color: rgb(28, 63, 219);
+    float: right;
+}
