@@ -1,0 +1,37 @@
+body{
+    background-color:rgb(241, 232, 241);
+    opacity: 0.90;
+}
+.topnav{
+    background-color: thistle;
+    margin: 50px 200px;
+    border: 2px solid white;
+    width: 700px;
+    height: 600px;
+}
+.topnav h1{
+    color: rgb(12, 12, 12);
+    text-align: center;
+}
+
+.topnav input{
+    margin: 2px 50px;
+    
+}
+h4{
+    margin: 8px 40px;
+}
+.c label{
+    margin:2px -5.0px;
+}
+.c textarea{
+    margin: 1px 50px;
+}
+.c button{
+    margin: 10px 200px;
+    width: 200px;
+    border: 2px solid burlywood;
+    background-color: black;
+    color: blue;
+    
+}
