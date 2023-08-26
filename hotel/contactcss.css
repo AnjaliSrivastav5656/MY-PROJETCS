@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+form{
+    margin: 50px 250px;
+    border: 1px solid white;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    color: blanchedalmond;
+    font-style: oblique;
+}
+.column {
+    margin-left: 15px;
+    float: left;
+    padding: 8px;
+    border: 1px solid bisque;
+    border-radius: 10px 30px 10px 30px;
+}
+.column a{
+    margin: 0px 20px;
+}
+form label{
+    margin: 10px 100px;
+    color: white;
+}
+input{
+    margin: 1px 100px;
+    color: red;
+    width: 300px;
+}
+textarea{
+    margin: 1px 100px;
+}
+button{
+    margin: 10px 100px;
+    border:  solid blue;
+    border: 5px 20px 5px 20px;
+    background-color:black;
+    color:blanchedalmond;
+    padding: 8px;
+}

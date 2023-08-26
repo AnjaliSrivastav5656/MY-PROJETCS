@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="contactcss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>contact</title>
+</head>
+<body>
+    <form>
+        <h1>Contact us</h1>
+        <div class="row">
+           
+            <div class="column">
+            <a href="#"><i class="fa fa-facebook"> facebook</i></a>
+           </div>
+            <div class="column">
+            <a href="#"><i class="fa fa-instagram"> Instagram</i></a>
+            </div>
+            <div class="column">
+            <a href="#"><i class="fa fa-twitter"> Twitter</i></a>
+             </div>
+            <div class="column">
+            <a href="#"><i class="fa fa-linkedin"> LinkedIn</i></a>
+            </div>
+        </div>
+        <h2>Plz for any query to Contact us</h2>
+        <label><i>Name</i></label><br>
+        <input type="text"placeholder="enter your Name"><br>
+        <label>Email</label><br>
+        <input type="email"placeholder="enter your Email-id"><br>
+        <label>Subject</label><br>
+        <input type="text"placeholder="enter your Subject"><br>
+        <label>Message</label><br>
+        <textarea rows="5" cols="60"name="message"form="contact">Enter Your query</textarea>
+        <button type="submit"id="submit"onclick="my()">Submit</button>
+        
+        <div class="row">
+           
+            <div class="column">
+            <a href="#"><i class="fa fa-address-card-o"> Address</i></a>
+           </div>
+            <div class="column">
+            <a href="#"><i class="fa fa-phone"> phone</i></a>
+            </div>
+            <div class="column">
+            <a href="#"><i class="fa fa-envelope"> E-Mail</i></a>
+             </div>
+            
+            
+        </div>
+    </form>
+    <script>
+        function my(){
+            confirm("Successfully Submitted your Query");
+        }
+    </script>
+</body>
+</html>
