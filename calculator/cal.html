@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="cla.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to our Doe Calculator</h1>
+    <div class="content">
+      <form class="calci"name="calci">
+         <input type="text"name="display"id="display"placeholder="Display">
+           <div class="buttons">
+             <button type="button"value="clear"onclick="Clear()">Clear</button>
+             <button type="button"value="000"onclick="btnclick(this)">000</button>
+             <button type="button"value="."onclick="btnclick(this)">.</button>
+             <button type="button"value="/"class="btnunique"onclick="btnclick(this)"style="background-color: blueviolet;">/</button>
+             <br>
+             <button type="button"value="7"onclick="btnclick(this)">7</button>
+             <button type="button"value="8"onclick="btnclick(this)">8</button>
+             <button type="button"value="9"onclick="btnclick(this)">9</button>
+             <button type="button"value="*"class="btnunique"onclick="btnclick(this)"style="background-color: blueviolet;">x</button>
+             <br>
+             <button type="button"value="4"onclick="btnclick(this)">4</button>
+             <button type="button"value="5"onclick="btnclick(this)">5</button>
+             <button type="button"value="6"onclick="btnclick(this)">6</button>
+             <button type="button"value="-"value="-"class="btnunique"onclick="btnclick(this)"style="background-color: blueviolet;">-</button>
+             <br>
+             <button type="button"value="1"onclick="btnclick(this)">1</button>
+             <button type="button"value="2"onclick="btnclick(this)">2</button>
+             <button type="button"value="3"onclick="btnclick(this)">3</button>
+             <button type="button"value="+"class="btnunique"onclick="btnclick(this)" style="background-color: blueviolet;">+</button><br>
+             <button type="button"value="00"onclick="btnclick(this)">00</button>
+             <button type="button"value="0"onclick="btnclick(this)">0</button>
+             <button type="button"value="="class="btnunique"onclick="Calculateoutput( )"style="background-color:maroon;">=</button>
+             <button type="button"class="btnunique"value="%"onclick="btnclick(this)"style="background-color: blueviolet;">%</button>
+         </div>
+      </form>
+    </div>
+</body>
+<script>
+    function btnclick(e){
+       let c=calci.display;
+       c.value+=e.value;
+    }
+      function Clear(){
+        let c=calci.display; 
+        calci.display.value = null; 
+      }
+         function Calculateoutput( ){
+           let c=calci.display;
+           c.value= eval( c.value);
+          }
+</script>
+</html>
