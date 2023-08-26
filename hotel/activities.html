@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="activitycss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Activities</title>
+   
+</head>
+<body>
+    <div class="topnav">
+        <ul>
+        <div class="dropdown">
+             <li><button class="dropbtn"><i class="fa fa-align-justify"></i></button></li>
+             <div class="dropdown-content">
+                 <a href="home.html">Home</a>
+                 <a href="flight.html">Flights</a>
+                 <a href="hotel.html">Hotel</a>
+                 <a href="train.html">Train</a>
+                 <a href="villas & Stays.html">Villas & stays</a>
+                 <a href="activities.html">Activities</a>
+                 <a href="holidays.html">Holidays</a>
+             </div>
+            <li><a href="home.html"><i class="fa fa-home"> Home</i></a></li>
+            <li><a href="flight.html"><i class="fa fa-plane"> flights</i></a></li>
+            <li><a href="hotel.html"><i class="fas fa-bath"> hotels</i></a></li>
+            <li><a href=""><i class="fa fa-train"> train</i></a></li>
+            <li><a href="villas & Stays.html"><i class="fa fa-bed"> villas & stays</i></a></li>
+            <li><a href=""><i class="fa fa-umbrella"> holidays</i></a></li>
+            <li><a href="activities.html"> <i class="fa fa-gamepad">Activities</i></a></li>
+            <li><a href="#"><i class="fa fa-phone">contact</i></a></li>
+        </ul>
+    </div> 
+</div>   
+<form>  
+    <label for="search">Search cities</label>
+    <select id="search"name="search">
+    <option value="">goa</option>
+    <option value="">mumbai</option>
+    <option value="">delhi</option>
+    <option value="">kolkatta</option>
+    <option value="">pune</option>
+    <option value="">gujrat</option>
+    </select><br>
+    <label>Start Day</label><br>
+    <input type="date"><br>
+    <label>End Day</label><br>
+    <input type="date"><br>
+ 
+    <a href="#"id="search">Search Activities</a>
+    
+    <button type="submit"id="submit"onclick="sub()">Submit</button>
+</form>
+ <br>
+    <h1>Explore Enjoy in activities</h1>
+    <div class="row">
+        <div class="column">
+            <img src="gamesclub.jpg"style="height:200px">
+        </div>
+        <div class="column">
+            <img src="danceclub.jpg"style="height:200px">
+        </div>
+        <div class="column">
+            <img src="wineclub.jpg"style="height:200px">
+        </div>
+        <div class="column">
+            <img src="activity4.jpeg"style="height:200px">
+        </div>
+    </div>
+    <h1>Explore discounts</h1>
+    <div class="row">
+        <div class="column">
+            <img src="offer1.jpg"style="height:200px">
+        </div>
+        <div class="column">
+            <img src="offer2.jpg"style="height:200px">
+        </div>
+        <div class="column">
+            <img src="offer0.png"style="height:200px">
+        </div>
+        <div class="column">
+            <img src="gift.jpg"style="height:200px">
+        </div>
+    </div>
+    <script>
+        function sub(){
+            confirm("successfully submit your choice");
+        }
+    </script>
+</body>
+</html>
