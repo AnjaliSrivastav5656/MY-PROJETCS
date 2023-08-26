@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(17, 16, 15);
+        }
+        .column{
+        float: left;
+        margin-top: 40px;
+        padding-left: 20px;
+        width: 40%;
+        height: 400px;
+        padding: 20px;
+        }
+        .form{
+            padding: 10px;
+            margin: 20px 50px;
+            bottom: 2px solid rgb(48, 35, 223);
+            background-color:white;
+        }
+       label{
+           margin-left:20px;
+           margin-top: 100px;
+       }
+       input{
+           margin: 3px 25px;
+       }
+        button{
+            border: 1px solid red;
+            width: 200px;
+            background-color: red;
+            padding: 7px;
+            margin: 10px 20px;
+        }
+        select{
+            margin: 5px 20px;
+        }
+        h1{
+            text-align: center;
+            font-style: italic;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: red;
+            font-size: 15px;
+        }
+        .row::after{
+            
+            content: "";
+            display: table;
+            clear: both;
+        }
+        img{
+          margin: 1px;
+          width: 450px;
+          height: 420px;
+          padding-left: 0px;
+          padding-top: none;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="column"style="background-color:gray;">
+            <img src="l2.jpeg">
+
+        </div>
+ <div class="column"style="background-color:blue;">
+       <div class="form">
+        <h1> Choose your choice in Villas & Stays</h1>
+    <label for="selection">Select city,Location or hotel name</label><br>
+    <select id ="selection"name="selection">
+        <option value="goa,goa,INDIA">goa,goa,INDIA</option>
+        <option value="mumbai,mumbai,INDIA">mumbai,mumbai,INDIA</option>
+        <option value="kolkatta,kolkatta,INDIA">kolkatta,kolkatta,INDIA</option>
+        <option value="gujrat,gujrat,INDIA">gujrat,gujrat,INDIA</option>
+    </select><br>
+    <label>Check-in</label><br>
+    <input type="date"><br>
+    <label>Check-out</label><br>
+    <input type="date"><br>
+    <label for="traveller">Travellers and Hotel</label><br>
+    <select id="traveller"name="traveller">
+        <option value="2 traveller, 1ROOM">2 traveller, 1 ROOM</option>
+        <option value="4 traveller, 1ROOM">4 traveller, 1 ROOM</option>
+        <option value="3 traveller, 2ROOM">3 traveller, 2 ROOM</option>
+        <option value="3 traveller, 3ROOM">3 traveller, 3 ROOM</option>
+    </select><br>
+    <button type="button">Search Villas</button>
+</div>
+</div>
+</div>
+
+</body>
+</html>
